@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+      font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --theme-color: #c2a09e;
+  --light-background:#fcf5f2;
+  --white-color: #ffffff;
+  --grey-color: #444444;
+  --black-color: #000000;
+ --gradient-circle : background-image: radial-gradient(circle, #c2a09e, #d0b7bc, #ddcfd7, #ece7ed, #ffffff);
+ --gradient-linear: background-image: linear-gradient(to bottom, #c2a09e, #d0b7bc, #ddcfd7, #ece7ed, #ffffff);
+}

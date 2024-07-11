@@ -1,0 +1,24 @@
+.collection-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-top: 3rem;
+}
+
+.Item:hover img {
+  transform: translateY(-5px);
+}
+
+
+/* Responsive Css */
+@media screen and (max-width: 992px) {
+  .collection-heading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .collection-heading {
+    font-size: 1.5rem;
+  }
+}

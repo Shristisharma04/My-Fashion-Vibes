@@ -1,0 +1,25 @@
+.custom-button {
+  border-color: var(--white-color) !important;
+  color: var(--white-color) !important;
+  text-transform: none !important;
+  font-size: 1rem !important;
+  padding: 0.5rem 2rem !important;
+  margin-bottom: 1rem;
+}
+
+.custom-button:hover {
+  border-color: var(--theme-color) !important;
+  background-color: var(--white-color) !important;
+  color: var(--black-color) !important;
+}
+/* Responsive Css */
+@media screen and (max-width: 992px) {
+  .custom-button {
+    padding: 0.2rem 1rem !important;
+  }
+}
+@media screen and (max-width: 425px) {
+   .custom-button {
+     padding: 0.2rem;
+   }
+}

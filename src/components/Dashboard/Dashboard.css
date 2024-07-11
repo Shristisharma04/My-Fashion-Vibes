@@ -1,0 +1,54 @@
+.dashboard-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/backgroundModel.jpg);
+  background-blend-mode: darken;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 10rem 0 2rem;
+  text-align: left;
+  color: var(--light-background);
+}
+
+.dashboard-background h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 0;
+}
+.dashboard-background h1 {
+  font-size: 3.5rem;
+  margin: 0 0 2rem 0;
+}
+
+/* Responsive Css */
+@media screen and (max-width: 992px) {
+  .dashboard-background h2 {
+    font-size: 2rem;
+  }
+
+  .dashboard-background h1 {
+    font-size: 2.5rem;
+  }
+  .dashboard-background {
+    padding: 0 4rem 0 2rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .dashboard-background h2 {
+    font-size: 1.5rem;
+  }
+  .dashboard-background h1 {
+    font-size: 2rem;
+  }
+  .dashboard-background {
+    padding: 0 2rem;
+    height: 450px;
+   
+  }
+}
